@@ -1,0 +1,23 @@
+#home-projects {
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #787877;
+}
+
+.project-buttons {
+  width: 70vw;
+  height: 20vh;
+  background-color: #38dcc8;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  border-width: 7px;
+  margin-left: 0px;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+}

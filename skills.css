@@ -1,0 +1,74 @@
+.skills-content{
+    padding-top: 74px;
+    /* background-image: url("https://i.pinimg.com/originals/0e/9e/88/0e9e8812f01f82650833264673bf51ed.jpg"); */
+    /* background-image: url("https://picturefordesktop.com/wp-content/uploads/2017/03/Laptop-Lights-Ultra-Hd-Wallpapers.jpg"); */
+    /* background-image: url("http://1.bp.blogspot.com/-aUTT9h8us9o/VeNaVDNzWgI/AAAAAAAADr8/XYeiD3XcLVA/s1600/MacBook_Pro_uhd.jpg"); */
+    background-image: url("https://images.wallpaperscraft.com/image/moss_trees_forest_113541_3840x2400.jpg");
+    width: 100%;
+    /* height: calc(100vh - 74px); */
+    background-size: cover;
+    background-position: center;
+    /* filter: blur(1px); */
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.skills-content-container > h1{
+    color: white;
+    height: 26vh;
+    width: 48vw;
+    box-sizing: border-box;
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    letter-spacing: 22px;
+}
+
+.skills-content-container > p{
+    color: white;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+
+.skills-container > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 192px;
+    margin: 0px 50px;
+}
+
+.skills-container img{
+    /* width: calc(70vw - ((80px + 74px) * 3)); */
+    max-width: 125px;
+    max-height: 125px;
+}
+
+.skills-container p{
+    color: white;
+    font-size: 22px;
+}

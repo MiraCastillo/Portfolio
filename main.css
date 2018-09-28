@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo|Dancing+Script|Dosis|Hind+Siliguri|Monsterrat:900|Muli|Nunito|Poppins|Questrial|Quicksand|Raleway|Source+Code+Pro|Work+Sans|Notable");
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Work Sans', sans-serif; */
+/* font-family: 'Hind Siliguri', sans-serif; */
+/* font-family: 'Dosis', sans-serif; */
+/* font-family: 'Source Code Pro', monospace; */
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Questrial', sans-serif; */
+/* font-family: 'Quicksand', sans-serif; */
+/* font-family: 'Nunito', sans-serif; */
+/* font-family: 'Arimo', sans-serif; */
+/* font-family: 'Muli', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+
+h1, p{
+  text-shadow: 0.5px 0.5px black;
+}
+
+nav {
+  background-color: #282828;
+  height: 74px;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+a {
+  text-decoration: none;
+  color: #a0a09f;
+}
+
+a:active {
+  color: #38dcc8;
+}
+
+a:hover {
+  color: #38dcc8;
+}
+
+strong {
+  color: #38dcc8;
+}
+
+#home-introduction {
+  height: 120vh;
+  width: 100%;
+}
+
+.home-parallax {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./images/43.jpg");
+}
+
+.home-front {
+  display: flex;
+  justify-content: center;
+  background-image: url("./images/EDIT-6189.JPG");
+  height: 68%;
+  width: 70%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  margin-top: 74px;
+}
+
+.home-introduction-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 17%;
+}
+
+/* .home-introduction-text >  */
+h1 {
+  color: #38dcc8;
+  font-size: 7.8vw;
+  font-family: "Questrial", sans-serif;
+  font-weight: 900;
+  letter-spacing: 10px;
+}
+
+.home-introduction-text > p {
+  color: white;
+  font-size: 4vw;
+  font-family: "Dancing Script", cursive;
+}
+
+button{
+  background-color: #2D313E;
+  border-color: #2D313E;
+  border-style: none;
+  height: 50px;
+  width: 120px;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  margin-left: 30%;
+}
+
+button:hover{
+  background-color: #a0a09f;
+}
+
+#contact{
+  height: 70vh;
+  width: 100%;
+  background-color: #2D313E;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.contact-container{
+  height: 51%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact-container > h1{
+  text-transform: uppercase;
+  color: white;
+  font-size: 3.5vw;
+  font-weight: 600;
+}
+
+footer{
+  height: 20vh;
+  width: 100%;
+  background-color: #a0a09f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.upper-line{
+  height: 7px;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 7px;
+}
+
+.bottom-line{
+  height: 3px;
+  width: 100%;
+  background-color: white;
+}

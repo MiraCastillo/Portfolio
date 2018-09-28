@@ -1,0 +1,49 @@
+#home-about,
+#home-projects {
+  height: calc(110vh - 74px);
+  width: 100%;
+}
+
+#home-about {
+    box-sizing: border-box;
+  background-color: #5C4945;
+  background-image: url("./images/2017.JPG");
+  background-size: 79%;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-description-container {
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-title-container {
+    height: 68vh;
+  width: 29vw;
+  box-sizing: border-box;
+  border: 5px solid white;
+  padding: 13px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.about-title-container > h1 {
+  font-size: 5vw;
+}
+
+p {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  text-shadow: 0.5px 0.5px black;
+}
+
+.about-description{
+    width: 30%;
+    /* padding-top: 6%; */
+}
