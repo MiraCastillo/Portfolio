@@ -1,17 +1,14 @@
 .skills-content{
     padding-top: 74px;
-    /* background-image: url("https://i.pinimg.com/originals/0e/9e/88/0e9e8812f01f82650833264673bf51ed.jpg"); */
-    /* background-image: url("https://picturefordesktop.com/wp-content/uploads/2017/03/Laptop-Lights-Ultra-Hd-Wallpapers.jpg"); */
-    /* background-image: url("http://1.bp.blogspot.com/-aUTT9h8us9o/VeNaVDNzWgI/AAAAAAAADr8/XYeiD3XcLVA/s1600/MacBook_Pro_uhd.jpg"); */
     background-image: url("https://images.wallpaperscraft.com/image/moss_trees_forest_113541_3840x2400.jpg");
     width: 100%;
-    /* height: calc(100vh - 74px); */
     background-size: cover;
     background-position: center;
-    /* filter: blur(1px); */
     background-attachment: fixed;
     display: flex;
     justify-content: center;
+    animation-name: fade-in;
+    animation-duration: 3s;
 }
 
 .skills-content-container{
@@ -33,6 +30,13 @@
     align-items: center;
     margin-bottom: 40px;
     letter-spacing: 22px;
+    padding: 24px;
+}
+
+@media(max-width: 700px){
+    .skills-content-container > h1{
+        width: unset;
+    }
 }
 
 .skills-content-container > p{
@@ -68,7 +72,15 @@
     max-height: 125px;
 }
 
+.skills-container img:hover{
+    max-width: 150px;
+    max-height: 150px;
+}
+
 .skills-container p{
     color: white;
     font-size: 22px;
+}
+
+@keyframes makeItBigger {
 }

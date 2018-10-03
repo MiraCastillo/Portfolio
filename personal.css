@@ -1,0 +1,152 @@
+.personal-content{
+    background-image: url("https://images.wallpaperscraft.com/image/trees_green_fog_forest_shroud_top_view_118416_3840x2400.jpg");
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: 74px;
+    animation-name: fade-in;
+    animation-duration: 3s;
+}
+
+.personal-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 16px;
+
+}
+
+.personal-content-container > p{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.personal-content-container > h1{
+    color: white;
+    height: 26vh;
+    width: 57vw;
+    box-sizing: border-box;
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 15px;
+    font-size: 50px;
+    padding: 24px;
+}
+
+@media(max-width: 500px){
+    .personal-content-container > h1{
+        height: unset;
+        width: unset;
+    }
+}
+
+.personal-description{
+    width: 65vw;
+    margin-bottom: 40px;
+}
+
+.button{
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+
+.carousel{
+    width: 370px;
+    height: 260px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #787877a6;;
+
+}
+
+.carousel-item{
+    max-width: 370px;
+    max-height: 240px;
+    position: absolute;
+}
+
+.one{
+    opacity: 0;
+    animation-name: carousel;
+    animation-duration: 7s;
+}
+
+.two{
+    opacity: 0;
+    animation-name: carousel;
+    animation-duration: 7s;
+    animation-delay: 7s;
+}
+
+.three{
+    opacity: 0;
+    animation-name: carousel;
+    animation-duration: 7s;
+    animation-delay: 14s;
+}
+
+.four{
+    opacity: 0;
+    animation-name: carousel;
+    animation-duration: 7s;
+    animation-delay: 21s;
+}
+
+.five{
+    opacity: 0;
+    animation-name: carousel;
+    animation-duration: 7s;
+    animation-delay: 28s;
+}
+
+.six{
+    opacity: 0;
+    animation-name: carousel;
+    animation-duration: 7s;
+    animation-delay: 35s;
+}
+
+.seven{
+    opacity: 0;
+    animation-name: carousel-stay;
+    animation-duration: 3000s;
+    animation-delay: 42s;
+}
+
+.seven-group{
+    opacity: 0;
+    animation-name: carousel;
+    animation-duration: 7s;
+    animation-delay: 42s;
+}
+
+.eight{
+    opacity: 0;
+    animation-name: carousel;
+    animation-duration: 7s;
+    animation-delay: 49s;
+}
+
+.nine{
+    opacity: 0;
+    animation-name: carousel-stay;
+    animation-duration: 3000s;
+    animation-delay: 56s;
+}
+
+@keyframes carousel{
+    10%{opacity: 1}
+    90%{opacity: 1}
+}
+@keyframes carousel-stay{
+    0%{opacity: 1}
+    100%{opacity: 1}
+}

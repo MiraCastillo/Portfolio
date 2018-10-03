@@ -14,12 +14,16 @@
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
 
+@keyframes fade-in{
+  0%{opacity: 0};
+  100%{opacity: 1};
+}
 
 h1, p{
   text-shadow: 0.5px 0.5px black;
 }
 
-nav {
+.nav-bar, nav {
   background-color: #282828;
   height: 74px;
   position: fixed;
@@ -35,6 +39,12 @@ nav {
   display: flex;
   justify-content: space-around;
   width: 40%;
+}
+
+@media(max-width: 760px){
+  .nav{
+    width: 70%;
+  }
 }
 
 a {
@@ -57,6 +67,8 @@ strong {
 #home-introduction {
   height: 120vh;
   width: 100%;
+  animation-name: fade-in;
+  animation-duration: 3s;
 }
 
 .home-parallax {
@@ -68,6 +80,8 @@ strong {
   align-items: center;
   justify-content: center;
   background-image: url("./images/43.jpg");
+  animation-name: fade-in;
+  animation-duration: 3s;
 }
 
 .home-front {
@@ -143,7 +157,7 @@ button:hover{
   font-weight: 600;
 }
 
-footer{
+.footer, footer{
   height: 20vh;
   width: 100%;
   background-color: #a0a09f;

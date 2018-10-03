@@ -5,6 +5,8 @@
   justify-content: space-evenly;
   align-items: center;
   background-color: #787877;
+  animation-name: fade-in;
+  animation-duration: 3s;
 }
 
 .project-buttons {
