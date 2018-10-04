@@ -62,7 +62,7 @@ p {
   .about-description-container{
     flex-direction: column;
     justify-content: unset;
-    height: 90vh;
+    /* height: 90vh; */
   }
 
   .about-title-container {
