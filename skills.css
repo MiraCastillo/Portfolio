@@ -4,7 +4,8 @@
     width: 100%;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    position: static;
     display: flex;
     justify-content: center;
     animation-name: fade-in;
@@ -34,6 +35,10 @@
 }
 
 @media(max-width: 700px){
+    .skills-content{
+        background-attachment: local;
+    }
+
     .skills-content-container > h1{
         width: unset;
     }
@@ -67,7 +72,6 @@
 }
 
 .skills-container img{
-    /* width: calc(70vw - ((80px + 74px) * 3)); */
     max-width: 125px;
     max-height: 125px;
 }
@@ -80,7 +84,5 @@
 .skills-container p{
     color: white;
     font-size: 22px;
-}
-
-@keyframes makeItBigger {
+    text-align: center;
 }
